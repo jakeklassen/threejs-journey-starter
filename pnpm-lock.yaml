@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   three:
-    specifier: ^0.159.0
-    version: 0.159.0
+    specifier: ^0.160.0
+    version: 0.160.0
 
 devDependencies:
   '@types/node':
@@ -441,8 +441,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /three@0.159.0:
-    resolution: {integrity: sha512-eCmhlLGbBgucuo4VEA9IO3Qpc7dh8Bd4VKzr7WfW4+8hMcIfoAVi1ev0pJYN9PTTsCslbcKgBwr2wNZ1EvLInA==}
+  /three@0.160.0:
+    resolution: {integrity: sha512-DLU8lc0zNIPkM7rH5/e1Ks1Z8tWCGRq6g8mPowdDJpw1CFBJMU7UoJjC6PefXW7z//SSl0b2+GCw14LB+uDhng==}
     dev: false
 
   /typescript@5.3.3:
