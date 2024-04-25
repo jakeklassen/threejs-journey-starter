@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       three:
-        specifier: ^0.163.0
-        version: 0.163.0
+        specifier: ^0.164.0
+        version: 0.164.0
     devDependencies:
       '@types/node':
         specifier: ^20.11.23
@@ -300,8 +300,8 @@ packages:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
     engines: {node: '>=0.10.0'}
 
-  three@0.163.0:
-    resolution: {integrity: sha512-HlMgCb2TF/dTLRtknBnjUTsR8FsDqBY43itYop2+Zg822I+Kd0Ua2vs8CvfBVefXkBdNDrLMoRTGCIIpfCuDew==}
+  three@0.164.0:
+    resolution: {integrity: sha512-bmfVMlDUSiqjR3LxLmIpJRQc4R1z75F/kR9OgJnlI2eVeOyyGkSpjzkLD85WWEKXM9pq5TuUWztf3rKH7P1Fdw==}
 
   typescript@5.4.5:
     resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
@@ -545,7 +545,7 @@ snapshots:
 
   source-map-js@1.2.0: {}
 
-  three@0.163.0: {}
+  three@0.164.0: {}
 
   typescript@5.4.5: {}
 
