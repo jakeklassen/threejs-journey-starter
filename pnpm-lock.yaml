@@ -16,8 +16,8 @@ importers:
         specifier: ^22.0.0
         version: 22.15.29
       '@types/three':
-        specifier: ^0.176.0
-        version: 0.176.0
+        specifier: ^0.177.0
+        version: 0.177.0
       typescript:
         specifier: ^5.3.3
         version: 5.8.3
@@ -292,8 +292,8 @@ packages:
   '@types/stats.js@0.17.3':
     resolution: {integrity: sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==}
 
-  '@types/three@0.176.0':
-    resolution: {integrity: sha512-FwfPXxCqOtP7EdYMagCFePNKoG1AGBDUEVKtluv2BTVRpSt7b+X27xNsirPCTCqY1pGYsPUzaM3jgWP7dXSxlw==}
+  '@types/three@0.177.0':
+    resolution: {integrity: sha512-/ZAkn4OLUijKQySNci47lFO+4JLE1TihEjsGWPUT+4jWqxtwOPPEwJV1C3k5MEx0mcBPCdkFjzRzDOnHEI1R+A==}
 
   '@types/webxr@0.5.19':
     resolution: {integrity: sha512-4hxA+NwohSgImdTSlPXEqDqqFktNgmTXQ05ff1uWam05tNGroCMp4G+4XVl6qWm1p7GQ/9oD41kAYsSssF6Mzw==}
@@ -554,7 +554,7 @@ snapshots:
 
   '@types/stats.js@0.17.3': {}
 
-  '@types/three@0.176.0':
+  '@types/three@0.177.0':
     dependencies:
       '@dimforge/rapier3d-compat': 0.12.0
       '@tweenjs/tween.js': 23.1.3
