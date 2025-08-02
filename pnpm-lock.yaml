@@ -10,7 +10,7 @@ importers:
     dependencies:
       three:
         specifier: ^0.179.0
-        version: 0.179.0
+        version: 0.179.1
     devDependencies:
       '@types/node':
         specifier: ^24.0.3
@@ -356,8 +356,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  three@0.179.0:
-    resolution: {integrity: sha512-V04E7nW9QS+ZDugmpu50x7cLT69th15elaXJPDo79CZs3q/0V8zHf1d3vrm9q2vQ/jef1fXdg8FvaMq2gJvzkw==}
+  three@0.179.1:
+    resolution: {integrity: sha512-5y/elSIQbrvKOISxpwXCR4sQqHtGiOI+MKLc3SsBdDXA2hz3Mdp3X59aUp8DyybMa34aeBwbFTpdoLJaUDEWSw==}
 
   tinyglobby@0.2.14:
     resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
@@ -657,7 +657,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  three@0.179.0: {}
+  three@0.179.1: {}
 
   tinyglobby@0.2.14:
     dependencies:
