@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^24.0.3
-        version: 24.5.1
+        version: 24.5.2
       '@types/three':
         specifier: ^0.180.0
         version: 0.180.0
@@ -23,7 +23,7 @@ importers:
         version: 5.9.2
       vite:
         specifier: ^7.0.0
-        version: 7.1.6(@types/node@24.5.1)
+        version: 7.1.6(@types/node@24.5.2)
 
 packages:
 
@@ -297,8 +297,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@24.5.1':
-    resolution: {integrity: sha512-/SQdmUP2xa+1rdx7VwB9yPq8PaKej8TD5cQ+XfKDPWWC+VDJU4rvVVagXqKUzhKjtFoNA8rXDJAkCxQPAe00+Q==}
+  '@types/node@24.5.2':
+    resolution: {integrity: sha512-FYxk1I7wPv3K2XBaoyH2cTnocQEu8AOZ60hPbsyukMPLv5/5qr7V1i8PLHdl6Zf87I+xZXFvPCXYjiTFq+YSDQ==}
 
   '@types/stats.js@0.17.4':
     resolution: {integrity: sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==}
@@ -566,7 +566,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@24.5.1':
+  '@types/node@24.5.2':
     dependencies:
       undici-types: 7.12.0
 
@@ -678,7 +678,7 @@ snapshots:
 
   undici-types@7.12.0: {}
 
-  vite@7.1.6(@types/node@24.5.1):
+  vite@7.1.6(@types/node@24.5.2):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -687,5 +687,5 @@ snapshots:
       rollup: 4.50.2
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.5.1
+      '@types/node': 24.5.2
       fsevents: 2.3.3
