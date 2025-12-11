@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
-    "@types/three": "^0.181.0",
+    "@types/three": "^0.182.0",
     "typescript": "^5.3.3",
     "vite": "^7.1.11"
   },
