@@ -1,20 +1,28 @@
 {
-  "name": "03",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@types/node": "^26.0.0",
-    "@types/three": "^0.185.0",
-    "typescript": "^6.0.3",
-    "vite": "^8.0.7"
-  },
-  "dependencies": {
-    "three": "^0.185.0"
-  }
+	"name": "03",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"typecheck": "tsc --noEmit",
+		"lint": "oxlint",
+		"lint:fix": "oxlint --fix",
+		"format": "oxfmt",
+		"format:check": "oxfmt --check",
+		"check": "pnpm run format:check && pnpm run lint && pnpm run typecheck"
+	},
+	"devDependencies": {
+		"@types/node": "^26.2.0",
+		"@types/three": "^0.185.4",
+		"oxfmt": "^0.65.0",
+		"oxlint": "^1.80.0",
+		"typescript": "^7.0.2",
+		"vite": "^8.0.7"
+	},
+	"dependencies": {
+		"three": "^0.185.0"
+	}
 }
